@@ -1,0 +1,29 @@
+.Searchimage{
+    width: 200px;
+    height: 300px;
+}
+.Searchimage:hover{
+    width: 220px;
+    height: 320px;
+}
+.topten{
+    height: 300px;
+    width: 200px;
+}
+.topten:hover{
+    width: 220px;
+    height: 320px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+.fav{
+    background: rgba(255, 0, 0, 0);
+    display: flex;
+    margin: auto;
+    border: 1px solid black
+    
+}
